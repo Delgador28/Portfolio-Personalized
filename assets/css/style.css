@@ -1,0 +1,181 @@
+/* FIRST PAGE */
+#MainText {
+  text-align: center;
+  margin-top: 15%;
+
+}
+
+#homeFont {
+  font-size: 1em;
+}
+.redirect {
+  margin-top: 5%;
+  margin-left: 41.5%
+}
+
+
+
+/* ************************************************ */
+/* HEADER */
+
+
+body{
+  /* The image used */
+  background-image: url("../images/Three.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* ************************************************ */
+
+
+
+/* Transparent Container */
+.container {
+
+    margin: 5%;
+    -webkit-box-shadow: 0px 0px 100px 15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 100px 15px rgba(0,0,0,1);
+    box-shadow: 0px 0px 100px 15px rgba(0,0,0,1);
+   height:1500px;
+}
+
+/* P tag in the container */
+.about_text {
+    color: white;
+
+    line-height: 2;
+    
+}
+
+.img-circle {
+ margin-left: 150%;
+ border-radius: 50%;
+ margin-top: 50%;
+
+}
+
+/* ************************************************ */
+
+
+
+/* Nav Bar */
+
+nav {
+    margin-top: 15px;
+    margin-left: 23%;
+
+}
+
+
+.text_font_nav {
+
+    margin-right: 350px;
+
+}
+
+
+
+
+/* ************************************************ */
+
+/* NEON */
+
+
+  span {
+    display: block
+  }
+
+    .text_font_fancy_one {
+        margin-left: 2%;
+        font-size: 15em;
+      }
+      
+      .text_font_fancy_one {
+        padding-top: 55px;
+        text-decoration: none;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      
+      .text_font_fancy_one:nth-child(1) h1 {
+        color: #FFDD1B;
+        font-size: 120px;
+        font-family: 'Pacifico', cursive;
+        -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+        -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+        animation: neon3 1.5s ease-in-out infinite alternate;
+        color: #ffffff;
+      }
+      
+      
+      
+      
+      @-webkit-keyframes neon1 {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+        }
+      }
+      
+      
+      
+      
+      
+      
+      
+      @-moz-keyframes neon1 {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+        }
+      }
+      
+      
+      
+      
+      @keyframes neon3 {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+        }
+      }
+      
+
+
+
+/* ************************************************ */
+ 
+/* FOOTER */
+footer {
+    color:black;
+    text-align: center;
+}
+
+/* ************************************************ */
+  /* portfolio cards*/
+
+#triviagamebox {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.card {
+  height: 200px;
+}
