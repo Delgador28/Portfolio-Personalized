@@ -209,3 +209,22 @@ footer {
 /* ************************************************ */
   /* MEDIA QUERIES */
 /* ************************************************ */
+
+
+/* MY SCREEN 1680x1050 */
+/* 
+1270px x 980px --> And lower we are making text smaller  */
+
+@media screen and (max-width: 1270px) and (min-width: 980px) {
+  .fullName {
+    margin: 845%;
+  }
+
+  .container {
+    font-size: 80px;
+  }
+
+  .header {
+    margin: 10%;
+  }
+}
