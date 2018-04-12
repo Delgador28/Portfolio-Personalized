@@ -1,12 +1,13 @@
 /* FIRST PAGE */
 #MainText {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 10%;
 
 }
 
+
 #homeFont {
-  font-size: 1em;
+  font-size: 15em;
 }
 .redirect {
   margin-top: 5%;
@@ -44,21 +45,22 @@ body{
     -webkit-box-shadow: 0px 0px 100px 15px rgba(0,0,0,1);
     -moz-box-shadow: 0px 0px 100px 15px rgba(0,0,0,1);
     box-shadow: 0px 0px 100px 15px rgba(0,0,0,1);
-   height:1500px;
+   height:1300px;
 }
 
 /* P tag in the container */
 .about_text {
     color: white;
-
     line-height: 2;
-    
+    margin-top: 10%;
+    text-align: center;    
 }
 
 .img-circle {
- margin-left: 150%;
+  margin-top: 7%;
+ margin-left: 37%;
  border-radius: 50%;
- margin-top: 50%;
+
 
 }
 
@@ -89,17 +91,15 @@ nav {
 /* NEON */
 
 
-  span {
-    display: block
-  }
+
 
     .text_font_fancy_one {
-        margin-left: 2%;
-        font-size: 15em;
+        text-align: center;
+        
       }
       
       .text_font_fancy_one {
-        padding-top: 55px;
+        padding-top: 10%;
         text-decoration: none;
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
@@ -164,18 +164,48 @@ nav {
 footer {
     color:black;
     text-align: center;
+    margin-bottom: 2%;
 }
 
 /* ************************************************ */
   /* portfolio cards*/
 
 #triviagamebox {
-  margin-top: 20%;
+  margin-top: 8%;
   margin-left: 10%;
   margin-right: 10%;
-  text-align: center;
+  
 }
 
 .card {
-  height: 200px;
+  height: 180px;
+  text-align: center;
 }
+
+#bamazonbox {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;;
+}
+
+
+
+
+/* ************************************************ */
+  /* Contact Page*/
+
+
+.iconGuys {
+  height: 250px;
+  width: 250px;
+  display: block;
+}
+
+#catGuy {
+  margin-top: 8%;
+  position: absolute
+}
+
+/* ************************************************ */
+  /* MEDIA QUERIES */
+/* ************************************************ */
