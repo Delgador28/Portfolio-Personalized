@@ -226,5 +226,6 @@ footer {
 
   .header {
     margin: 10%;
+   display: inline;
   }
 }
